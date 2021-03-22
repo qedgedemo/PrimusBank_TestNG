@@ -1,0 +1,20 @@
+<suite name="PrimusBank Test Suite">
+  
+ <test name="Admin Login TestCase">
+ <parameter name="adminuid" value="Admin"></parameter>
+ <parameter name="adminpwd" value="Admin"></parameter>
+   <classes>
+     <class name="primusbank.tests.AdminLoginTest"></class>
+   </classes>		
+ </test>
+
+ <test name="Banker Login TestCase">
+ <parameter name="branchname" value="Ameerpet"></parameter>
+ <parameter name="uid" value="Richards"></parameter>
+ <parameter name="pwd" value="demo"></parameter>
+    <classes>
+      <class name="primusbank.tests.BankerLoginTest"></class>
+    </classes>
+ </test> 
+
+</suite>
